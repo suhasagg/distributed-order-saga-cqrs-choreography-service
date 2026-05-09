@@ -1,6 +1,6 @@
 # Distributed Order Saga CQRS Service
 
-A multi-tenant, event-driven order management prototype designed to demonstrate two important system design interview patterns:
+A multi-tenant, event-driven order management prototype designed to demonstrate:
 
 - Choreography-based Saga microservices pattern
 - CQRS pattern
@@ -47,8 +47,6 @@ The system separates:
 - bounded-context service logic
 - event publication
 - compensation actions
-
-This makes the design suitable for Staff-level system design discussions around distributed transactions, eventual consistency, failure recovery, CQRS, and event-driven microservices.
 
 ---
 
